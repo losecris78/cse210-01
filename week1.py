@@ -71,21 +71,21 @@ def make_a_moveo(turn,list):
 
 def make_decision(list):
     if list[0] and list[1] and list [2] ==['X']:
-        print('Game over, player one has one')  
+        print('Game over, player one has won')  
     elif list[3] and list[4] and list [5] == ["X"]:
-        print('Game over, player one has one') 
+        print('Game over, player one has won') 
     elif list[6] and list[7] and list [8] == ["X"]:
-        print('Game over, player one has one') 
+        print('Game over, player one has won') 
     elif list[0] and list[3] and list [6] == ["X"]:
-        print('Game over, player one has one')  
+        print('Game over, player one has won')  
     elif list[1] and list[4] and list [7] == ["X"]:
-        print('Game over, player one has one') 
+        print('Game over, player one has won') 
     elif list[2] and list[5] and list [8] == ["X"]:
-        print('Game over, player one has one')  
+        print('Game over, player one has won')  
     elif list[0] and list[4] and list [8] == ["X"]:
-        print('Game over, player one has one') 
+        print('Game over, player one has won') 
     elif list[2] and list[4] and list [6] == ["X"]: 
-        print('Game over, player one has one') 
+        print('Game over, player one has won') 
     elif list[0] and list[1] and list [2] == ["O"]:
         print('Game over player two has won')
     elif list[3] and list[4] and list [5] == ["O"]:
